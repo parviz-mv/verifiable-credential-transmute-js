@@ -3,6 +3,7 @@ import { documentLoader } from "./data/documentLoader.js";
 import { verifiable } from "@transmute/vc.js";
 
 export class TransmuteVerifiablelW3 {
+  
   async createCredential(key, credential) {
     return await verifiable.credential.create({
       credential,

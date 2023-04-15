@@ -1,7 +1,7 @@
 import { TransmuteVerifiablelW3 } from "./verifiable.js";
-import { key, credential, presentation } from "./data/utils.js";
+import { key, credential, presentation } from "./utils.js";
 
-async function runExample() {
+export async function runExample() {
   const verifiable = new TransmuteVerifiablelW3();
   const createCredentialResult = await verifiable.createCredential(
     key,
@@ -18,10 +18,10 @@ async function runExample() {
   const verifyCredentialResult = await verifiable.verifyVerifiableCredential(
     createCredentialResult
   );
-  console.log("verifyCredentialResult: ", verifyCredentialResult);
+  console.log("verify credential result: ", verifyCredentialResult);
 
   const verifyPresentationResult =
     await verifiable.verifyVerifiablePresentation(createPresentationResult);
-  console.log("verifyPresentationResult: ", verifyPresentationResult);
+  console.log("verify presentation result: ", verifyPresentationResult);
 }
-runExample();
+runExample()
