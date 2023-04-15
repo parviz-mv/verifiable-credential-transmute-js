@@ -5,10 +5,9 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "test": "",
-    "start": ""
+    "example": "node --experimental-json-modules ./src/example.js"
   },
-  "author": "",
+  "author": "parviz-makhkamov",
   "license": "ISC",
   "dependencies": {
     "@transmute/vc.js": "^0.7.0-unstable.66",
