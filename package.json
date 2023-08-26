@@ -7,9 +7,9 @@
   "author": "parviz-mv",
   "license": "ISC",
   "scripts": {
-    "run-example": "node --experimental-json-modules ./src/example.js"
+    "example": "node --experimental-json-modules ./src/example.js"
   },
   "dependencies": {
-    "@transmute/vc.js": "^0.7.0-unstable.66"
+    "@transmute/vc.js": "0.7.0-unstable.81"
   }
 }
