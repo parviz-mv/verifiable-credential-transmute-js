@@ -1,20 +1,15 @@
 {
-  "name": "verifiable-data-transmute",
+  "name": "verifiable-credential-transmute",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "example of VC with '@transmute/vc.js' lib",
+  "main": "./index.js",
   "type": "module",
-  "scripts": {
-    "example": "node --experimental-json-modules ./src/example.js"
-  },
-  "author": "parviz-makhkamov",
+  "author": "parviz-mv",
   "license": "ISC",
-  "dependencies": {
-    "@transmute/vc.js": "^0.7.0-unstable.66",
-    "nodemon": "^2.0.20",
-    "ts-node": "^10.9.1"
+  "scripts": {
+    "run-example": "node --experimental-json-modules ./src/example.js"
   },
-  "devDependencies": {
-    "@types/node": "^18.7.18"
+  "dependencies": {
+    "@transmute/vc.js": "^0.7.0-unstable.66"
   }
 }
