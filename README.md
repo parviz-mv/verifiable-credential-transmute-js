@@ -17,7 +17,6 @@ For install this repo run a following command:
 git clone git@github.com:parviz-mv/verifiable-credential-transmute.git
 
 cd verifiable-data-web3
-"@transmute/vc.js": "^0.7.0-unstable.66"
 npm install
 ```
 
@@ -32,7 +31,7 @@ npm run example
 Initialize a instance of `VCManager`:
 
 ```js
-import VCManager from "./vc-manager.js";
+import VCManager from "parviz-mv/verifiable-credential-transmute";
 
 // initial verifiable for usage verifiable functions
 const vcManager = new VCManager();
