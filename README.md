@@ -1,4 +1,4 @@
-# verifiable-credential-transmute
+# verifiable-credential-transmute-js
 
 - [Installation](#installation)
 - [Usage](#usage)
@@ -12,9 +12,9 @@
 For install this repo run a following command:
 
 ```shell
-git clone git@github.com:parviz-mv/verifiable-credential-transmute.git
+git clone git@github.com:parviz-mv/verifiable-credential-transmute-js.git
 
-cd verifiable-credential-transmute
+cd verifiable-credential-transmute-js
 npm install
 ```
 
@@ -29,7 +29,7 @@ npm run example
 Initialize a instance of `VCManager`:
 
 ```js
-import VCManager from "verifiable-credential-transmute";
+import VCManager from "verifiable-credential-transmute-js";
 
 // initial verifiable for usage verifiable functions
 const vcManager = new VCManager();
